@@ -1,0 +1,115 @@
+.content {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: row;
+}
+.left-side {
+  width: 45%;
+  background-color: var(--verde-fundo);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  color: var(--branco);
+  text-align: center;
+}
+.left-side > .text-content > .title-left {
+  font-family: "Limelight", serif;
+  font-size: 50px;
+}
+.left-side > .text-content > .text {
+  font-family: "Lustria", serif;
+  font-size: 20px;
+}
+.right-side {
+  width: 55%;
+  background-color: var(--cinza-claro-fundo);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  font-family: 'Lustria', serif;
+  color: var(--verde-texto-escuro);
+}
+.right-side > form > .title-login {
+    margin: 0 0 15px 0;
+
+    font-family: 'Limelight', serif;
+    font-size: 40px;
+}
+.right-side > form > input {
+    width: 250px;
+    height: 30px;
+    margin-bottom: 10px;
+    padding: 5px;
+
+    font-family: 'Lustria', serif;
+    font-size: 14px;
+    color: var(--verde-texto-escuro);
+
+    border: 1px solid rgb(194, 201, 200);
+    border-radius: 5px;
+    outline: none;
+}
+.right-side > form > input:focus {
+    outline: solid 1px var(--verde-fundo);
+}
+.right-side > form > .submit-button {
+    display: flex;
+    justify-content: center;
+}
+.right-side > form > .submit-button > .btnLogin {
+    width: 100px;
+    height: 26px;
+    background-color: var(--verde-acao);
+    margin-top: 10px;
+
+    color: var(--branco);
+    font-family: 'Limelight', serif;
+    font-size: 20px;
+    text-transform: lowercase;
+
+    border: none;
+    border-radius: 25px;
+}
+.right-side > form > .submit-button > .btnLogin:hover{
+    background-color: var(--verde-texto-escuro);
+
+    cursor: pointer;
+    transition: .2s;
+}
+.right-side > .text {
+    font-size: 14px;
+    margin: 10px 0;
+}
+.right-side > .social-medias > a > img {
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+
+    border-radius: 5px;
+}
+.right-side > .social-medias > a > img:hover {
+    transform: scale(1.1);
+    filter: brightness(90%);
+    transition: .2s;
+}
+
+.divider {
+    width: 250px;
+    height: 1px;
+    background-color: var(--divisores);
+    margin-bottom: 20px;
+}
+.right-side > p >.link-signup:hover {
+    color: var(--verde-texto-escuro);
+    cursor: pointer;
+
+    transition: .2s;
+}
